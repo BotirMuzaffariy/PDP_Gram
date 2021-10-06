@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_group_img"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/avatar_placeholder" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:text="Guruhga rasm qo`shish uchun bosing"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/et_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/bg_et"
+        android:hint="Group name"
+        android:inputType="text"
+        android:maxLength="30"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="17sp" />
+
+    <EditText
+        android:id="@+id/et_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_et"
+        android:gravity="top"
+        android:hint="About this group"
+        android:inputType="textMultiLine"
+        android:maxLength="250"
+        android:maxLines="4"
+        android:padding="16dp"
+        android:textColor="@color/black"
+        android:textColorHint="@android:color/darker_gray"
+        android:textSize="17sp" />
+
+</LinearLayout>

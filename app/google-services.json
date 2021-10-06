@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "698853063542",
+    "project_id": "pdp-gram",
+    "storage_bucket": "pdp-gram.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698853063542:android:d2f5dae7585dc48f135857",
+        "android_client_info": {
+          "package_name": "uz.lycr.lesson15firebasechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "698853063542-95c9ijpkccnqebnrki66vb2nm35nma37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRRpJYK96GmNd8zTOIYY1Nlmh5p9764xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "698853063542-95c9ijpkccnqebnrki66vb2nm35nma37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
